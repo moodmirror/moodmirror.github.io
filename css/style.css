@@ -1,0 +1,98 @@
+/* ############################### Font Import ################################# */
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/Calibri/Calibri\ Regular.ttf");
+}
+
+/*################################# RESET ########################################3*/
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Calibri';
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main{
+    background-color: #73009f;
+    height: 100vh;
+}
+
+/* ############################### HEADER ##################################################*/
+.nav-con{
+    display: flex;
+    justify-content:center;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+
+/* .nav-con div:nth-child(1){
+    display: flex;
+    justify-content: end;
+} */
+
+.nav-con ul{
+    display: flex;
+    /* margin: 0 auto; */
+    
+}
+
+.nav-con ul li{
+    font-size: 24px;
+    font-weight: bold;
+    padding:0 30px 0 30px;
+}
+
+.nav-con ul li a{
+    color: #461173;
+}
+
+.nav-con .logo-link{
+    margin-right: 10px;
+}
+/* ################################# QUESTIONS ################################################### */
+main{
+    display: flex;
+}
+
+.questions-div{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-div h2{
+    color: #fff;
+    font-size: 48px;
+}
+
+.questions-div .btn-feel{
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+    margin:6px 0;
+    cursor: pointer;
+    padding: 12px 0;
+    border-radius:20px;
+}
+.questions-div .btn-feel span{
+    font-size: 24px;
+    color:#9900cc;
+    font-weight: bold;
+}
+
+.questions-div #h-text{
+    margin-bottom:20px;
+}
