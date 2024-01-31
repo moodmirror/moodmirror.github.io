@@ -24,7 +24,7 @@ a{
 }
 
 main{
-    background-color: #73009f;
+    background-image: linear-gradient(to right, rgb(94, 0, 132), rgb(141, 0, 194));
     height: 100vh;
 }
 
