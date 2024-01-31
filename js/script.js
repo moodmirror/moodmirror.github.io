@@ -43,8 +43,9 @@ function changeTextAndButtons() {
         newLink2.href = 'https://open.spotify.com/';
         var musicImg = document.createElement('img');
         musicImg.src = '../img/image3.png';
-        musicImg.alt = 'Game Image';
+        musicImg.alt = 'Music Image';
         musicImg.style.width="100%";
+        musicImg.style.height="500px";
         newLink2.appendChild(musicImg);
         buttonsDiv.innerHTML = ' ';
         buttonsDiv.appendChild(newLink2);
