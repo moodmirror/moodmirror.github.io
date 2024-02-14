@@ -44,7 +44,7 @@ function changeTextAndButtons() {
         .then(data=>{
             let img ="";
             data.map(item=>{
-                img+=`<div><a href="${item.link}"><img src="${item.image}"></></a></div>`;
+                img+=`<div><a href="${item.link}"><img src="${item.image}"></img></a></div>`;
             })
             document.getElementById('game-div').innerHTML=img;
         })
