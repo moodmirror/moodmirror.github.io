@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodMirror</title>
+    <!-- <link rel="stylesheet" href="bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo-removebg.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-con">
+                    <div><a href="#" class="logo-link"><img src="./img/logo-removebg.png" width="80" alt="Logo"></a></div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <!-- <li><a href="contacts.html">Contacts</a></li> -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <div class="questions-div">
+            <h2 id="h-text">Hi! How are you?</h2>
+            <div class="btn-div">
+                <button class="btn-feel" onclick="changeTextAndButtons()"><span>Amazing!</span></button>
+                <button class="btn-feel" onclick="changeTextAndButtons()"><span>Good</span></button>
+                <button class="btn-feel" onclick="changeTextAndButtons()"><span>I don’t know</span></button>
+                <button class="btn-feel" onclick="changeTextAndButtons()"><span>Stressed or Bad</span></button>
+                <button class="btn-feel" onclick="changeTextAndButtons()"><span>Terrible</span></button>
+            </div>
+        </div>
+        <div id="game-div"></div>
+        <div id="music-div"></div>
+    </main>
+    <!-- <script src="bootstrap/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "link": "https://play.google.com/store/apps/details?id=com.rovio.baba",
+        "title": "Angry Birds",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/angry.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 2,
+        "link": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en_US",
+        "title": "Candy Crush",
+        "description": "Master the legendary match 3 puzzle game from King and have a blast! With over a trillion matching levels played, Candy Crush Saga is the popular match 3 puzzle game!",
+        "genre": "Puzzle",
+        "image": "../img/api/game-2.png",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 3,
+        "link": "https://play.google.com/store/apps/details?id=com.Polyculture.Prune&hl=en",
+        "title": "Prune",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-3.png",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 4,
+        "link": "https://play.google.com/store/search?q=monument+valley&c=apps",
+        "title": "Monument Valley",
+        "description": "Monument Valley is a stunning puzzle game of dreamlike exploration through many magnificent structures.",
+        "genre": "Adventure",
+        "image": "../img/api/game-4.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 5,
+        "link": "https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone&hl=en",
+        "title": "Hearthstone",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-5.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 6,
+        "link": "https://play.google.com/store/apps/details?id=com.weplaydots.twodotsandroid&hl=en",
+        "title": "Two Dots",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-6.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 7,
+        "link": "https://play.google.com/store/apps/details?id=air.com.landsharkgames.zenkoi.android&hl=en",
+        "title": "Zen Koi Classic",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-7.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 8,
+        "link": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross&hl=en",
+        "title": "Wordscapes",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-8.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    },
+    {
+        "id": 9,
+        "link": "https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en",
+        "title": "Stardew Valley",
+        "description": "The game series focuses on the eponymous flock of colorful angry birds who try to save their eggs from green-colored pigs.",
+        "genre": "Artillery",
+        "image": "../img/api/game-9.jpeg",
+        "rating": {
+            "rate": 4.2,
+            "count": "1.2mil"
+        }
+    }
+]
