@@ -1,3 +1,7 @@
+// api
+
+
+// .catch(err=>console.log(err));
 var buttons = document.getElementsByClassName('btn-feel');
 var hText = document.getElementById('h-text');
 function changeTextAndButtons() {
@@ -28,13 +32,22 @@ function changeTextAndButtons() {
         hText.innerHTML = "Here Are Some Games For You";
         var newLink = document.createElement('a');
         newLink.href = 'https://play.google.com/store/games';
-        var gameImg = document.createElement('img');
-        gameImg.src = '../img/image2.png';
-        gameImg.alt = 'Game Image';
-        gameImg.style.width="100%";
-        newLink.appendChild(gameImg);
+        // var gameImg = document.createElement('img');
+        // gameImg.src = '../img/image2.png';
+        // gameImg.alt = 'Game Image';
+        // gameImg.style.width="100%";
+        // newLink.appendChild(gameImg);
         buttonsDiv.innerHTML = ' ';
         buttonsDiv.appendChild(newLink);
+        fetch('../data/games.json')
+        .then(res=>res.json())
+        .then(data=>{
+            let img ="";
+            data.map(item=>{
+                img+=`<div><a href="${item.link}"><img src="${item.image}"></></a></div>`;
+            })
+            document.getElementById('game-div').innerHTML=img;
+        })
 
     });
     buttons[1].addEventListener('click', function () {
@@ -43,9 +56,8 @@ function changeTextAndButtons() {
         newLink2.href = 'https://open.spotify.com/';
         var musicImg = document.createElement('img');
         musicImg.src = '../img/image3.png';
-        musicImg.alt = 'Music Image';
+        musicImg.alt = 'Game Image';
         musicImg.style.width="100%";
-        musicImg.style.height="500px";
         newLink2.appendChild(musicImg);
         buttonsDiv.innerHTML = ' ';
         buttonsDiv.appendChild(newLink2);
