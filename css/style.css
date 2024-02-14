@@ -24,7 +24,7 @@ a{
 }
 
 main{
-    background-image: linear-gradient(to right, rgb(94, 0, 132), rgb(141, 0, 194));
+    background-color: #73009f;
     height: 100vh;
 }
 
@@ -63,6 +63,9 @@ main{
 /* ################################# QUESTIONS ################################################### */
 main{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .questions-div{
@@ -78,10 +81,15 @@ main{
     font-size: 48px;
 }
 
+.btn-div{
+    margin: 0 auto;
+    text-align: center;
+}
+
 .questions-div .btn-feel{
     background-color: #fff;
     border: 0;
-    width: 100%;
+    width: 80%;
     margin:6px 0;
     cursor: pointer;
     padding: 12px 0;
@@ -95,4 +103,21 @@ main{
 
 .questions-div #h-text{
     margin-bottom:20px;
+}
+
+/*##########################################3 Games ###########################################*/
+#game-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+#game-div div{
+    width: 30%;
+    margin-bottom: 20px;
+}
+#game-div div img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
 }
